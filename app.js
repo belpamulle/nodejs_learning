@@ -61,3 +61,7 @@ player.prototype.myuppercutFunction = function (counterplayer){
 }
 
 nayomi.myuppercutFunction(gayan);
+
+
+var importModule  = require('./newmodule');
+importModule.newprint();
