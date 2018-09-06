@@ -65,3 +65,7 @@ nayomi.myuppercutFunction(gayan);
 
 var importModule  = require('./newmodule');
 importModule.newprint();
+
+var importModule2  = require('./newmodule2');
+importModule2.func1();
+console.log(importModule2.variable1);
