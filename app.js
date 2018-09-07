@@ -79,3 +79,7 @@ console.log(james.name);
 var fs = require('fs');
 fs.writeFileSync("newFile.txt","this file is generated using Node core module FS");
 console.log(fs.readFileSync("newFile.txt").toString());
+
+var path = require('path');
+var myPath = "/User//gayan/test//index.html";
+console.log(path.normalize(myPath));
