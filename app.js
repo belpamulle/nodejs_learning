@@ -75,3 +75,7 @@ var james = exteneralObject();
 james.name='JAMES';
 james.id="12334";
 console.log(james.name);
+
+var fs = require('fs');
+fs.writeFileSync("newFile.txt","this file is generated using Node core module FS");
+console.log(fs.readFileSync("newFile.txt").toString());
