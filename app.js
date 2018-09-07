@@ -69,3 +69,9 @@ importModule.newprint();
 var importModule2  = require('./newmodule2');
 importModule2.func1();
 console.log(importModule2.variable1);
+
+var exteneralObject = require('./objectFactory');
+var james = exteneralObject();
+james.name='JAMES';
+james.id="12334";
+console.log(james.name);
