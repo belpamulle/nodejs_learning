@@ -83,3 +83,7 @@ console.log(fs.readFileSync("newFile.txt").toString());
 var path = require('path');
 var myPath = "/User//gayan/test//index.html";
 console.log(path.normalize(myPath));
+
+//CURRENT DIRECTORY AND CURRENT FILE NAME
+console.log(__dirname);
+console.log(__filename);
